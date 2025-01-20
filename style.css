@@ -85,15 +85,21 @@ align-items: center;
   flex-direction: column;
 align-items: center;
 gap: 4px;
+font-weight: 700;
+font-size: 20px;
+color: #555555;
 }
 
 .currency{
   color: #777777;
-  font-size: 14px;
+  font-size: 18px;
+ 
 
 }
 
-.currency-value, .currency-value-to-converted{
+.currency-value, .currency-value-to-converted {
   color: #555555;
+  font-weight: 700;
+  font-size: 20px;
 
 }

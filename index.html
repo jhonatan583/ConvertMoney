@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto</title>
+    <title>ConvertMoney</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="style.css">
-
+</head>
 
 <body>
-    <img class="logo" src="./assets/logo.gif" alt="logo-converte-money">
+    <img class="logo" src="./assets/logo.gif" alt="logo-convert-money">
 
     <main>
         <label> Converter <b>de</b>
@@ -23,9 +23,9 @@
 
         <label>
             Converter <b>para</b>
-            <select>
-                <option>U$ Dólar Americano</option>
-                <option>€ Euro</option>
+            <select class="currency-select">
+                <option value="dolar">US$ Dólar Americano</option>
+                <option value="euro">€ Euro</option>
           </select>
         </label>
 
@@ -38,7 +38,7 @@
             <div class="currency-box">
                 <img src="./assets/brasil 2.png" alt="logo-moeda-brasil">
                 <p class="currency">Real</p>
-                <p class="currency-value-to-converted">R$ 0,00</p>
+                <p class="currency-value-to-convert">R$ 0,00</p>
 
             </div>
            
