@@ -71,6 +71,7 @@ function changeCurrency() {
    if (currencyselect.value == "Bitcoin") {
       currencyname.innerHTML = "Bitcoin"
       currencyimage.src = "./assets/bitcoin-logo.png"
+      currencyimage.style.width = "80px";
    }
 
    convertValues()
